@@ -5,7 +5,7 @@
 Author: Markus Knauer (markus.knauer@dlr.de),
 German Aerospace Center (DLR), Institut of Robotics and Mechatronics, Munich, Germany.
 
-This repository contains the code of RECALL to reproduce the results from our IROS Paper [cite paper].
+This repository contains the code of RECALL to reproduce the results from our IROS Paper.
 As well as some code to download and use our new dataset HOWS.
 
 [RECALL](#recall-rehearsal-free-continual-learning-for-object-classification) | [HOWS](#hows-houshold-objects-within-simulation-dataset) | [IROS paper]() | [Zenodo]() | [ArXiv paper]() | [YouTube]()
@@ -15,7 +15,7 @@ As well as some code to download and use our new dataset HOWS.
 </div>
 
 ## RECALL: Rehearsal-free Continual Learning for Object Classification
-[Link to the IROS Paper](TODO) | [Link to our Youtube Video](https://www.youtube.com/watch?v=P9buxiinVeI)
+[Link to the IROS Paper(TODO)](TODO) | [Link to our Youtube Video](https://www.youtube.com/watch?v=P9buxiinVeI)
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=P9buxiinVeI"><img src="images/recall_overview.jpg" hspace="3%" vspace="30px", width="500"></a>
