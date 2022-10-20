@@ -8,7 +8,7 @@ German Aerospace Center (DLR), Institut of Robotics and Mechatronics, Munich, Ge
 This repository contains the code of RECALL to reproduce the results from our IROS Paper.
 As well as some code to download and use our new dataset HOWS.
 
-[RECALL](#recall-rehearsal-free-continual-learning-for-object-classification) | [HOWS](#hows-houshold-objects-within-simulation-dataset) | [IROS paper]() | [Zenodo]() | [ArXiv paper]() | [YouTube]()
+[RECALL](#recall-rehearsal-free-continual-learning-for-object-classification) | [HOWS](#hows-houshold-objects-within-simulation-dataset) | [IROS paper (TODO)](TODO) | [Zenodo](https://zenodo.org/record/7189434) | [ArXiv paper](https://arxiv.org/abs/2209.14774) | [YouTube](https://youtu.be/P9buxiinVeI)
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=P9buxiinVeI"><img src="images/graphical_abstract.jpg" hspace="3%" vspace="60px"></a>
@@ -109,10 +109,10 @@ python recall.py --path_to_dataset $PATH_TO_DATASET --dataset_name "icifar100"
 
 ## HOWS: Houshold Objects within Simulation Dataset
 
-[Download link to the dataset](https://zenodo.org/record/7054171)
+[Download link to the dataset](https://zenodo.org/record/7189434)
 
 <div align="center">
-  <a href=""https://zenodo.org/record/7054171><img src="images/HOWS_overview.jpg" hspace="3%" vspace="30px" width="500"></a>
+  <a href="https://zenodo.org/record/7189434"><img src="images/HOWS_overview.jpg" hspace="3%" vspace="30px" width="500"></a>
 </div>
 
 ### Description:
@@ -167,7 +167,7 @@ y.shape:          # The shape of the labels y [in this case 5 categories]
 
 ### Getting started
 ### 1. Download the dataset
-Our HOWS dataset is hosted by [zenodo.org](https://zenodo.org/record/7054171). We provide the complete dataset
+Our HOWS dataset is hosted by [zenodo.org](https://zenodo.org/record/7189434). We provide the complete dataset
 with all RGB-D, normal and segmentation images split into three .zip archives: "HOWS_CL_25.zip", "HOWS_CL_25.z01" and "HOWS_CL_25.z02", which is in total 123 GB.
 And we also provide the calculated ResNet50-features of this dataset: "HOWS_CL_25_hdf5_features.zip", which is 3.5 GB. If you want to use the dataset for your machine learning approach or to run RECALL, we recommend only dowloading the features.
 You can do so by executing the following command in your terminal or by downloading the features manually from zenodo.org:
@@ -191,7 +191,7 @@ python HOWS/download_hows_dataset.py --path_to_dataset $PATH_TO_DATASET --images
 ```
 If that was successful you can continue reading at ["2. Dataset usage"](#2-datset-usage).
 
-If you prefer to download our dataset yourself, you find at [zenodo.org](https://zenodo.org/record/7054171). 
+If you prefer to download our dataset yourself, you find at [zenodo.org](https://zenodo.org/record/7189434). 
 
 You can also execute this in your terminal (linux):
 
@@ -199,12 +199,12 @@ You can also execute this in your terminal (linux):
 #Please execute this inside the PATH_TO_DATASET folder
 cd $PATH_TO_DATASET
 #Only downloading the features as .hdf5 file 
-curl https://zenodo.org/record/7054171/files/HOWS_CL_25_hdf5_features.zip --output HOWS_CL_25_hdf5_features.zip
+curl https://zenodo.org/record/7189434/files/HOWS_CL_25_hdf5_features.zip --output HOWS_CL_25_hdf5_features.zip
 
 #Downloading the full dataset
-curl https://zenodo.org/record/7054171/files/HOWS_CL_25.zip --output HOWS_CL_25.zip
-curl https://zenodo.org/record/7054171/files/HOWS_CL_25.z01 --output HOWS_CL_25.z01
-curl https://zenodo.org/record/7054171/files/HOWS_CL_25.z02 --output HOWS_CL_25.z02
+curl https://zenodo.org/record/7189434/files/HOWS_CL_25.zip --output HOWS_CL_25.zip
+curl https://zenodo.org/record/7189434/files/HOWS_CL_25.z01 --output HOWS_CL_25.z01
+curl https://zenodo.org/record/7189434/files/HOWS_CL_25.z02 --output HOWS_CL_25.z02
 ```
 
 After downloading the full dataset, please note that we split this into three .zip files.

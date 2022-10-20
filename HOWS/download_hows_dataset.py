@@ -31,7 +31,7 @@ from recall.utility.config import Configuration
 
 
 def download_hows_features(path_to_dataset: str) -> str:
-    download_path = "https://zenodo.org/record/7054171/files/HOWS_CL_25_hdf5_features.zip"
+    download_path = "https://zenodo.org/record/7189434/files/HOWS_CL_25_hdf5_features.zip"
 
     if not os.path.exists(path_to_dataset):
         os.makedirs(path_to_dataset)
@@ -54,9 +54,9 @@ def download_hows_features(path_to_dataset: str) -> str:
 
 def download_hows_images(path_to_dataset: str):
     # download the files first
-    download_links = ["https://zenodo.org/record/7054171/files/HOWS_CL_25.zip",
-                      "https://zenodo.org/record/7054171/files/HOWS_CL_25.z01",
-                      "https://zenodo.org/record/7054171/files/HOWS_CL_25.z02"]
+    download_links = ["https://zenodo.org/record/7189434/files/HOWS_CL_25.zip",
+                      "https://zenodo.org/record/7189434/files/HOWS_CL_25.z01",
+                      "https://zenodo.org/record/7189434/files/HOWS_CL_25.z02"]
     for download_link in download_links:
         subprocess.run("wget {} -P {}/".format(download_link, path_to_dataset), shell=True)
     part_files = [os.path.join(path_to_dataset, "HOWS_CL_25" + ending) for ending in [".zip", ".z01", ".z02"]]
