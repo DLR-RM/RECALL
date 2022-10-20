@@ -1,0 +1,17 @@
+name: recall_environment
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip=22.2
+  - cudatoolkit=11.2
+  - cudnn=8.2
+  - pip:
+    - tensorflow-gpu==2.5
+    - tensorflow_addons==0.13.0
+    - pyyaml==6.0
+    - psutil==5.9.2
+    - pillow==8.3.1
+    - keras_applications==1.0.8
+    - opencv-python==4.6.0.66

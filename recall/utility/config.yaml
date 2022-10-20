@@ -1,0 +1,137 @@
+recall:
+  default:
+    core50:
+      seq_learning_rate: 2.7159196267618506e-05
+      siren_omega: 2.437651531308992
+      base_steps: 9
+      seq_steps: 5
+      initialize_heads: True
+      take_weights_from_base_head: True
+      use_combined_loss: True
+    hows:
+      seq_learning_rate: 0.0004670089650042825
+      siren_omega: 0.00010319040841312262
+      base_steps: 7
+      seq_steps: 9
+      initialize_heads: False
+      take_weights_from_base_head: False
+      use_combined_loss: False
+    hows_long:
+      seq_learning_rate: 0.0003078446806524109
+      siren_omega: 0.0003302489863749504
+      base_steps: 1
+      seq_steps: 5
+      initialize_heads: False
+      take_weights_from_base_head: False
+      use_combined_loss: False
+    icifar100:
+      seq_learning_rate: 0.0002717873797319575
+      siren_omega: 1.19429882958789
+      base_steps: 3
+      seq_steps: 12
+      initialize_heads: True
+      take_weights_from_base_head: True
+      use_combined_loss: False
+  divide_by_variance:
+    core50:
+      seq_learning_rate: 3.1603378415333786e-05
+      siren_omega: 3.0114722583169447
+      base_steps: 8
+      seq_steps: 11
+      initialize_heads: True
+      take_weights_from_base_head: True
+      use_combined_loss: True
+    hows:
+      seq_learning_rate: 4.848068639119322e-05
+      siren_omega: 1.5769993770693764
+      base_steps: 2
+      seq_steps: 5
+      initialize_heads: False
+      take_weights_from_base_head: False
+      use_combined_loss: False
+    hows_long:
+      seq_learning_rate: 0.00019050559103255855
+      siren_omega: 0.000250134411088418
+      base_steps: 1
+      seq_steps: 9
+      initialize_heads: False
+      take_weights_from_base_head: False
+      use_combined_loss: False
+    icifar100:
+      seq_learning_rate: 0.00017450722439669582
+      siren_omega: 1.4031207453410446
+      base_steps: 2
+      seq_steps: 11
+      initialize_heads: True
+      take_weights_from_base_head: True
+      use_combined_loss: False
+  regression_loss:
+    core50:
+      seq_learning_rate: 0.0006292417168882234
+      siren_omega: 0.007060111994684516
+      base_steps: 2
+      seq_steps: 3
+      initialize_heads: True
+      take_weights_from_base_head: True
+      use_combined_loss: False
+    hows:
+      seq_learning_rate: 0.0003204014882461301
+      siren_omega: 0.004874893808498577
+      base_steps: 5
+      seq_steps: 9
+      initialize_heads: True
+      take_weights_from_base_head: True
+      use_combined_loss: False
+    hows_long:
+      seq_learning_rate: 0.0006109790355232101
+      siren_omega: 2.6462552398387346e-05
+      base_steps: 8
+      seq_steps: 11
+      initialize_heads: True
+      take_weights_from_base_head: True
+      use_combined_loss: False
+    icifar100:
+      seq_learning_rate: 0.0007850093873449945
+      siren_omega: 0.0016993379987851464
+      base_steps: 8
+      seq_steps: 14
+      initialize_heads: False
+      take_weights_from_base_head: True
+      use_combined_loss: False
+  divide_by_variance_with_regression:
+    core50:
+      seq_learning_rate: 7.401244775423592e-05
+      siren_omega: 0.0005383732415483947
+      base_steps: 1
+      seq_steps: 13
+      initialize_heads: False
+      take_weights_from_base_head: False
+      use_combined_loss: True
+    hows:
+      seq_learning_rate: 0.0006645262965000155
+      siren_omega: 0.0017629246073175666
+      base_steps: 7
+      seq_steps: 8
+      initialize_heads: True
+      take_weights_from_base_head: True
+      use_combined_loss: False
+    hows_long:
+      seq_learning_rate: 0.0007722959680048267
+      siren_omega: 1.8342042889606856e-05
+      base_steps: 8
+      seq_steps: 9
+      initialize_heads: True
+      take_weights_from_base_head: True
+      use_combined_loss: False
+    icifar100:
+      seq_learning_rate: 0.0006733388222607658
+      siren_omega: 0.0016620409735585758
+      base_steps: 7
+      seq_steps: 13
+      initialize_heads: False
+      take_weights_from_base_head: True
+      use_combined_loss: False
+
+
+
+
