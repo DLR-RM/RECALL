@@ -8,14 +8,14 @@ German Aerospace Center (DLR), Institut of Robotics and Mechatronics, Munich, Ge
 This repository contains the code of RECALL to reproduce the results from our IROS Paper.
 As well as some code to download and use our new dataset HOWS.
 
-[RECALL](#recall-rehearsal-free-continual-learning-for-object-classification) | [HOWS](#hows-houshold-objects-within-simulation-dataset) | [IROS paper (TODO)](TODO) | [Zenodo](https://zenodo.org/record/7189434) | [ArXiv paper](https://arxiv.org/abs/2209.14774) | [YouTube](https://youtu.be/P9buxiinVeI)
+[RECALL](#recall-rehearsal-free-continual-learning-for-object-classification) | [HOWS](#hows-houshold-objects-within-simulation-dataset) | [IROS paper](https://ieeexplore.ieee.org/document/9981968) | [Zenodo](https://zenodo.org/record/7189434) | [ArXiv paper](https://arxiv.org/abs/2209.14774) | [YouTube](https://youtu.be/P9buxiinVeI)
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=P9buxiinVeI"><img src="images/graphical_abstract.jpg" hspace="3%" vspace="60px"></a>
 </div>
 
 ## RECALL: Rehearsal-free Continual Learning for Object Classification
-[Link to the IROS Paper(TODO)](TODO) | [Link to our Youtube Video](https://www.youtube.com/watch?v=P9buxiinVeI)
+[Link to the IROS Paper](https://ieeexplore.ieee.org/document/9981968) | [Link to our Youtube Video](https://www.youtube.com/watch?v=P9buxiinVeI)
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=P9buxiinVeI"><img src="images/recall_overview.jpg" hspace="3%" vspace="30px", width="500"></a>
@@ -247,6 +247,7 @@ If you use RECALL or HOWS in a research project or publication, please cite as f
   title={RECALL: Rehearsal-free Continual Learning for Object Classification},
   author={Knauer, Markus and Denninger, Maximilian and Triebel, Rudolph},
   journal={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  doi={10.1109/IROS47612.2022.9981968}
   year={2022}
 }
 @dataset{knauer2022hows,
