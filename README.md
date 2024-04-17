@@ -3,7 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Author: Markus Knauer (markus.knauer@dlr.de),
-German Aerospace Center (DLR), Institut of Robotics and Mechatronics, Munich, Germany.
+Research Scientist @ German Aerospace Center (DLR), Institut of Robotics and Mechatronics, Munich, Germany &
+Doctoral candidate @ Technical University Munich (TUM).
 
 This repository contains the code of RECALL to reproduce the results from our IROS Paper.
 As well as some code to download and use our new dataset HOWS.
